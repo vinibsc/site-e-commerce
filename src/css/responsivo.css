@@ -1,0 +1,82 @@
+@media (max-width: 780px) {
+  body {
+    background-color: #d40000;
+    overflow-x: hidden;
+  }
+
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .cabecalho .pesquisa{
+    width: 100%;
+  }
+
+  .pesquisa input{
+    width: 70%;
+  }
+  .desControle p:nth-child(1){
+    color: white;
+    font-size: 20px;
+}
+
+  .desControle p span{
+    font-size: 60px;
+    color: red;
+}
+
+  .controle{
+    height: 300px;
+  }
+  .desControle{
+    margin-left: 10px;
+  }
+}
+
+
+/* celular */
+
+/* @media (max-width: 480px){
+    body{
+        background-color: #ad4141;
+        overflow-x: hidden;
+    }
+    .cabecalho{
+        width: 100%;
+    }
+} */
+
+
+@media (max-width: 480px){
+    body{
+        background-color: #272127;
+    }
+    .desControle p:nth-child(1){
+        color: white;
+        font-size: 15px;
+    }
+    
+    .desControle p span{
+        font-size: 30px;
+        color: red;
+    }
+    .desControle p:nth-child(2){
+        background-color: red;
+        padding: 15px 0px;
+        height: 10px;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .controle{
+        height: 200px;
+    }
+    .fotoPrincipal{
+        height: 300px;
+    }
+
+}
