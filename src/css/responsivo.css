@@ -79,4 +79,21 @@
         height: 300px;
     }
 
+    /* diminuindo cards */
+
+    .card{
+      height: 260px;
+      width: 160px;
+  }
+    .card img{
+      height: 110px;
+  }
+    .card p:nth-child(3){
+      
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      direction: ltr;
+  }
+
 }
